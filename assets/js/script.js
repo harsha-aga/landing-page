@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Swetha Mohan";
+            document.title = "Portfolio | Harsha Agarwal";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Machine Learning","Artificial Intelligence","Computer Vision","Deep Learning","Fullstack Development", "Backend Development", "Frontend Development", "Android Development", "Web Development"],
+    strings: ["App Developement","Artificial Intelligence","Computer Vision","Deep Learning","Fullstack Development", "Backend Development", "Frontend Development", "Android Development", "Web Development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
